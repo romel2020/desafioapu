@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Babies</h1>
+    <% @babies.each do |baby| %>
+    <%= baby.name %><br>
+    <%= "Cantidad de leche que ha tomado hasta el momento es de  #{baby.control} veces  y con #{baby.suma} ml consumidos "%>
+   
+      <br>
+   
+     <td><%= link_to 'Destroy', baby, method: :delete, data: { confirm: 'Are you sure?' } %></td> |
+     <td><%= link_to 'Show',baby %></td><br>
+      <% end %>
+ 
+
+<br>
+
+<%= link_to 'New Baby', new_baby_path %>
+
+

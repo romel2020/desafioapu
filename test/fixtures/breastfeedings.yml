@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  baby: one
+  volum: 1
+  time_feeding: 1
+
+two:
+  baby: two
+  volum: 1
+  time_feeding: 1
